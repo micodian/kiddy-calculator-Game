@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <h1 class="display-2">Multiplication Practise For Makenzie</h1>
+    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/girl_emoji-modifier-fitzpatrick-type-4_1f467-1f3fd_1f3fd.png" class="img-fluid" alt="Makenzie the big girl">
+
+</div>
+    
+<br>
+<div>
+    <p><input type="text" [(ngModel)]="firstMultiplicant"> X <input type="text" [(ngModel)]="secondMultiplicant"><input type="text" placeholder="Your Answer" [(ngModel)]="userAnswer"></p>
+    <button class="btn btn-success" (click)="productOfNumbers()">Answer</button>
+    <p>{{ answerString }}</p>
+</div>
